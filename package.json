@@ -1,5 +1,5 @@
 {
-  "name": "dialogflow_library_services",
+  "name": "dialogflow-library-services",
   "version": "1.0.0",
   "description": "Library services",
   "main": "index.js",
