@@ -1,1 +1,3 @@
-var service = require(moduleName);
+exports.printMsg = function() {
+  console.log("Test Haiylu");
+}
