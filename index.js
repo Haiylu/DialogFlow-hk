@@ -1,3 +1,5 @@
-exports.printMsg = function() {
-  console.log("Test Haiylu");
+module.exports = {
+    test: function(){
+        console.log("Yuying is trying!");
+    }
 }
