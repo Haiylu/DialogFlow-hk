@@ -1,0 +1,19 @@
+{
+  "name": "dialogflow_library_services",
+  "version": "1.0.0",
+  "description": "Library services",
+  "main": "index.js",
+  "scripts": {
+    "test": "mkdir test-directory"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Haiylu/Dialogflow-Library-Services.git"
+  },
+  "author": "Haiylu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Haiylu/Dialogflow-Library-Services/issues"
+  },
+  "homepage": "https://github.com/Haiylu/Dialogflow-Library-Services#readme"
+}
