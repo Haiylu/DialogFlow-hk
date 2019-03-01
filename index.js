@@ -6,7 +6,6 @@ module.exports = {
         .then(jsonBody=>{
             var body=JSON.parse(jsonBody);
             console.log(dody);
-    }
    }
               }
 /*
