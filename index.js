@@ -8,7 +8,6 @@ module.exports = {
             console.log(dody);
     }
    }
-}
 /*
 json.
 
