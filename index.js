@@ -10,25 +10,6 @@ module.exports = {
    }
               }
 /*
-function test(agent){
-	var result = "";
-	var options = {
-    		uri: 'https://api.devhub.virginia.edu/v1/library/services',
-    		headers: {
-        		'User-Agent': 'Request-Promise'
-    		},
-    		json: true // Automatically parses the JSON string in the response
-	};
-
-
-
-*/
-
-
-
-
-*/
-/*
 const rp = require('request-promise-native ');
 //const services_url='https://api.devhub.virginia.edu/v1/library/services/';
 function servicesTest(agent){
