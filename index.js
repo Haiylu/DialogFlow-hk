@@ -10,11 +10,6 @@ function servicesTest(agent){
     var varOptions={ url:'https://api.devhub.virginia.edu/v1/library/services/', 
                  headers:
               { 'User-Agent': 'Request-Promise'},JSON: true};
-              */
-
-
-                 
-
            
-  
 }
+*/
