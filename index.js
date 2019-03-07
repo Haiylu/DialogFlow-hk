@@ -1,4 +1,4 @@
-/*
+
 const rp = require('request-promise-native ');
 function servicesTest(agent){
     var final=" ";
@@ -24,4 +24,3 @@ return rp(hk)
 module.exports = {
 		servicesTest:servicesTest
 }
-*/
