@@ -40,16 +40,10 @@ return rp(hk)
     		});
 	return Promise.resolve(agent);
 }
-
-
-
 module.exports = {
 		servicesTest:servicesTest
 }
-
-
-
-var title=agent.Library_services;
+var title=agent.Library_Services;
 for(var i=0; i<jsonA<length;i++){
 if(title==jsonA[i].title){
 return jsonA[i].siteLink;
