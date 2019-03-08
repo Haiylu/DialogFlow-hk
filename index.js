@@ -48,14 +48,12 @@ module.exports = {
 
 //Library_Services
 
-/*
 var title=agent.Library_services;
 for(int i=0; i<jsonA<length;i++)[
 if(title==jsonA[i].title){
 return jsonA[i].siteLink;
 }
 }
-*/
 
 
 
