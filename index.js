@@ -30,6 +30,7 @@ return rp(hk)
     		.then(function (services) {
 			console.log(services);
         		final = services[0].site_link;
+			console.log(final);
 			agent.add(final);
 
 	/*var title=agent.Library_Services;
