@@ -31,6 +31,11 @@ return rp(hk)
 			console.log(services);
         		final = services.length;
 			agent.add(final);
+
+	/*var title=agent.Library_Services;
+	for(var i=0; i<jsonA.length;i++){
+	if(title==jsonA[i].title){
+	return jsonA[i].siteLink; */
     		})
 		.catch(function (err) {
         		final = err;
@@ -41,13 +46,5 @@ return rp(hk)
 module.exports = {
 		servicesTest:servicesTest
 }
-/*
-var title=agent.Library_Services;
-for(var i=0; i<jsonA.length;i++){
-if(title==jsonA[i].title){
-return jsonA[i].siteLink;
-}
-}
-*/
 
 
