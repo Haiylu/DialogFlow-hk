@@ -29,7 +29,7 @@ function servicesTest(agent){
 return rp(hk)
     		.then(function (services) {
 			console.log(services);
-        		final = services.length;
+        		final = services[0].site_link;
 			agent.add(final);
 
 	/*var title=agent.Library_Services;
