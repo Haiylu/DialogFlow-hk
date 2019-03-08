@@ -27,6 +27,8 @@ module.exports = {
 
 //Library_Services
 */
+
+/*
 const functions=require('firebase-functions')
 const {dialogflow}=require('actions-on-google')
 
@@ -45,3 +47,5 @@ app.intent(LIBRARY_SERVICES_INTENT, (conv) =>{
      conv.ask("http://small.library.virginia.edu/collections/university-of-virginia-archives/")
 })
 exports.dialogflowFirebaseFulfillment=functions.https.onRequest(app)
+
+*/
