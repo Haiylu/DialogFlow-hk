@@ -19,9 +19,6 @@ app.intent(LIBRARY_SERVICES_INTENT, (conv) =>{
 exports.dialogflowFirebaseFulfillment=functions.https.onRequest(app)
 
 */
-
-/*
-*/
 const rp = require('request-promise-native ');
 function servicesTest(agent){
     var final=" ";
