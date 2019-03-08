@@ -50,9 +50,9 @@ module.exports = {
 
 /*
 var title=agent.Library_services;
-for)(int i=0; i<jsonA<length;i++)[
+for(int i=0; i<jsonA<length;i++)[
 if(title==jsonA[i].title){
-return jsonA[i].phone_number;
+return jsonA[i].siteLink;
 }
 }
 */
