@@ -20,7 +20,8 @@ exports.dialogflowFirebaseFulfillment=functions.https.onRequest(app)
 
 */
 
-/*const rp = require('request-promise-native ');
+/*
+*/const rp = require('request-promise-native ');
 function servicesTest(agent){
     var final=" ";
     var hk={ url:'https://api.devhub.virginia.edu/v1/library/services/', 
@@ -46,7 +47,7 @@ module.exports = {
 		servicesTest:servicesTest
 }
 
-//Library_Services
+
 
 var title=agent.Library_services;
 for(int i=0; i<jsonA<length;i++){
