@@ -57,6 +57,5 @@ return jsonA[i].phone_number;
 }
 */
 
-*/
 
 
