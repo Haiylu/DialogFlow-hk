@@ -19,7 +19,7 @@ app.intent(LIBRARY_SERVICES_INTENT, (conv) =>{
 exports.dialogflowFirebaseFulfillment=functions.https.onRequest(app)
 
 */
-const rp = require('request-promise-native ');
+const rp = require('request-promise-native');
 function servicesTest(agent){
     var final=" ";
     var hk={ url:'https://api.devhub.virginia.edu/v1/library/services/', 
