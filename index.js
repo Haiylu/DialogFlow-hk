@@ -19,17 +19,17 @@ app.intent(LIBRARY_SERVICES_INTENT, (conv) =>{
 exports.dialogflowFirebaseFulfillment=functions.https.onRequest(app)
 
 */
-const rp = require('request-promise-native');
-function servicesTest(agent){
+const rp = require('request-promise-native');//adding reqest promise
+function servicesTest(agent){//function name 
     var final=" ";
-    var hk={ url:'https://api.devhub.virginia.edu/v1/library/services/', 
+    var hk={ url:'https://api.devhub.virginia.edu/v1/library/services/', //calling url with rp
                  headers:
               { 'User-Agent': 'Request-Promise'},JSON: true};
            
 return rp(hk)
-    		.then(function (services) {
+    		.then(function (services) {//
 			console.log(services);
-        		final = services[9].site_link;
+        		final = services[9].site_link;//finding the json array in the json file
 			console.log(final);
 			agent.add(final);
 
@@ -38,14 +38,14 @@ return rp(hk)
 	if(title==jsonA[i].title){
 	return jsonA[i].siteLink; */
     		})
-		.catch(function (err) {
+		.catch(function (err) {//checking for error 
         		final = err;
 			agent.add(final);
     		});
-	return Promise.resolve(agent);
+	return Promise.resolve(agent);//if resolve return agent 
 }
 module.exports = {
-		servicesTest:servicesTest
+		servicesTest:servicesTest//module exporting agent
 }
 
 
