@@ -29,10 +29,10 @@ function servicesTest(agent){//function name
 return rp(hk)
     		.then(function (services) {
 			console.log(services);
-        		final = services[9].site_link;//finding the json array in the json file
+        		final = services[9].siteLink;//finding the json array in the json file
 			console.log(final);
 			agent.add(final);
-	/*var title=agent.Library_Services;//iterating through JsonArray
+	/*var title=agent.services;//iterating through JsonArray
 	for(var i=0; i<jsonA.length;i++){
 	if(title==jsonA[9].title){
 	return jsonA[9].siteLink;
