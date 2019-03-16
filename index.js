@@ -32,11 +32,10 @@ return rp(hk)
         		final = services[9].site_link;//finding the json array in the json file
 			console.log(final);
 			agent.add(final);
-
-	/*var title=agent.Library_Services;
+	var title=agent.Library_Services;
 	for(var i=0; i<jsonA.length;i++){
 	if(title==jsonA[i].title){
-	return jsonA[i].siteLink; */
+	return jsonA[i].siteLink;
     		})
 		.catch(function (err) {//checking for error 
         		final = err;
