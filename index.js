@@ -27,11 +27,12 @@ function servicesTest(agent){//function name
               { 'User-Agent': 'Request-Promise'},JSON: true};
            
 return rp(hk)
-    		.then(function (services) {//
+    		.then(function (services) {
 			console.log(services);
         		final = services[9].site_link;//finding the json array in the json file
 			console.log(final);
 			agent.add(final);
+})
 	var title=agent.Library_Services;//iterating through JsonArray
 	for(var i=0; i<jsonA.length;i++){
 	if(title==jsonA[9].title){
@@ -39,7 +40,7 @@ return rp(hk)
     		}
 	}
 	
-});
+
 		.catch(function (err) {//checking for error 
         		final = err;
 			agent.add(final);
