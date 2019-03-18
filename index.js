@@ -34,7 +34,7 @@ return rp(hk)
 			agent.add(final);
 	/*var title=agent.services;//iterating through JsonArray
 	for(var i=0; i<jsonA.length;i++){
-	if(title==jsonA[9].title){
+	if(title==jsonA[i].title){
 	return jsonA[9].siteLink;
     		}
 	}*/
