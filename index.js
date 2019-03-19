@@ -35,8 +35,9 @@ return rp(hk)
 	var title=agent.services;//iterating through JsonArray
 	for(var i=0; i<jsonA.length;i++){
 	if(title==jsonA[i].title){
+		console.log(title );
 	return jsonA[9].siteLink;
-		//console.log(title);
+		console.log(title);
     		}
 	}
 })
