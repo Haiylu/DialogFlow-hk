@@ -37,7 +37,6 @@ return rp(hk)
 	if(title==jsonA[i].title){
 		console.log(title );
 	return jsonA[9].siteLink;
-		console.log(title);
     		}
 	}
 })
