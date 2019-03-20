@@ -42,8 +42,13 @@ return rp(hk)
 		console.log(services[i].siteLink);
 		if(title==services[i].title){
 			console.log(services[i].siteLink);
-		 	var final = services[i].siteLink;
+			if(agent.Services_info=="phone number"){
+				agent.add(services[i].phoneNumber)
+	                console.log(services[i].phoneNumber);
+		 	var final = services[i].siteLink;	
+				
    		}
+	}
 	}
 	console.log(final);
         agent.add(final);
