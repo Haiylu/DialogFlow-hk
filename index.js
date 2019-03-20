@@ -35,12 +35,12 @@ return rp(hk)
 			//agent.add(final);
 	var title=agent.services;//iterating through JsonArray
 	console.log("title " + title);
-	for(var i=0; i<services.length;i++){
+	/*for(var i=0; i<services.length;i++){
 		if(title==services[i].title){
 		//console.log(title);
 		return services[i].siteLink;
     		}
-	}
+	}*/
 })
 		.catch(function (err) {//checking for error 
         		final = err;
