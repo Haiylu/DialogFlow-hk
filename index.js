@@ -40,18 +40,23 @@ return rp(hk)
 	console.log("title " + title);
 	for(var i=0; i<services.length;i++){
 		console.log(services[i].siteLink);
+		console.log(services[i].phoneNumber);
 		if(title==services[i].title){
 			console.log(services[i].siteLink);
-			if(agent.Services_info=="phone number"){
-				agent.add(services[i].phoneNumber)
-	                console.log(services[i].phoneNumber);
-		 	var final = services[i].siteLink;	
+			console.log(services[i].phoneNumber);
+			//if(agent.Services_info=="phone number"){
+				//agent.add(services[i].phoneNumber)
+	                //console.log(services[i].phoneNumber);
+		 	var final = services[i].siteLink;
+			var final1=services[i].phoneNumber;	
 				
    		}
 	}
 	}
 	console.log(final);
         agent.add(final);
+	console.log(final1);
+	agent.add(final1);
         return Promise.resolve(agent);//if resolve return agent
 	})
 	.catch(function (err) {//checking for error
