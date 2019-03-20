@@ -48,7 +48,8 @@ return rp(hk)
 				//agent.add(services[i].phoneNumber)
 	                //console.log(services[i].phoneNumber);
 		 	var final = services[i].siteLink;
-			var final1=services[i].phoneNumber;	
+			var final1=services[i].phoneNumber;
+			var final2=services[i].emailAddress;
 				
    		}
 	}
@@ -56,6 +57,8 @@ return rp(hk)
         agent.add(final);
 	console.log(final1);
 	agent.add(final1);
+	console.log(final2);
+	agent.add(final2);
         return Promise.resolve(agent);//if resolve return agent
 	})
 	.catch(function (err) {//checking for error
