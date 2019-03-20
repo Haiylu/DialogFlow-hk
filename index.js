@@ -36,6 +36,11 @@ return rp(hk)
 			//agent.add(final);
 	console.log(agent);
 	//var title=agent.Services_name;//iterating through JsonArray
+	/*if(agent.Services_name=="Archives"){
+	agent.add(services[i].phoneNumber;
+	agent.add(services[i].siteLink;
+	agent.add(services[i].emailAddress;
+	*/
 	var title = "Archives";
 	console.log("title " + title);
 	for(var i=0; i<services.length;i++){
