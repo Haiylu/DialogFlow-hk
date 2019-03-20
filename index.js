@@ -28,6 +28,7 @@ function servicesTest(agent){//function name
 
 return rp(hk)
     		.then(function (services) {
+			services = JSON.parse(services);
 			console.log(services);
         		//final = services.siteLink;//finding the json array in the json file
 			//console.log(final);
