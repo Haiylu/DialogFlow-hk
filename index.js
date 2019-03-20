@@ -29,15 +29,15 @@ function servicesTest(agent){//function name
 return rp(hk)
     		.then(function (services) {
 			console.log(services);
-        		final = services[9].siteLink;//finding the json array in the json file
+        		final = services.siteLink;//finding the json array in the json file
 			console.log(final);
 			agent.add(final);
 	var title=agent.services;//iterating through JsonArray
-	console.log("title" + title);
+	console.log("title " + title);
 	for(var i=0; i<jsonA.length;i++){
-	if(title==jsonA[i].title){
+		if(title==jsonA[i].title){
 		//console.log(title);
-	return jsonA[9].siteLink;
+		return jsonA[i].siteLink;
     		}
 	}
 })
