@@ -33,7 +33,7 @@ return rp(hk)
 			//console.log(final);
 			console.log(services);
 			//agent.add(final);
-	var title=agent.services;//iterating through JsonArray
+	var title=agent.Services_name;//iterating through JsonArray
 	console.log("title " + title);
 	/*for(var i=0; i<services.length;i++){
 		if(title==services[i].title){
