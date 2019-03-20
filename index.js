@@ -42,7 +42,8 @@ return rp(hk)
 		//console.log(title);
 		 var final = services[i].siteLink;
     }
-        agent.add(final)
+	console.log(final);
+        agent.add(final);
         return Promise.resolve(agent);//if resolve return agent
 	}
 	})
