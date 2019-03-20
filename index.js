@@ -43,8 +43,7 @@ return rp(hk)
 	}*/
 })
 		.catch(function (err) {//checking for error 
-        		final = err;
-			agent.add(final);
+			console.log(err);
     		});
 	return Promise.resolve(agent);//if resolve return agent 
 }
