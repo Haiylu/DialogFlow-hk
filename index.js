@@ -38,9 +38,10 @@ return rp(hk)
 	var title = "Archives";
 	console.log("title " + title);
 	for(var i=0; i<services.length;i++){
+		console.log(services[i].siteLink);
 		if(title==services[i].title){
-		//console.log(title);
-		 var final = services[i].siteLink;
+			console.log(services[i].siteLink);
+		 	var final = services[i].siteLink;
     }
 	console.log(final);
         agent.add(final);
