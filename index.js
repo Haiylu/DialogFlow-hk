@@ -32,9 +32,8 @@ return rp(hk)
         		final = services[9].siteLink;//finding the json array in the json file
 			console.log(final);
 			agent.add(final);
-	console.log("title" + title);
 	var title=agent.services;//iterating through JsonArray
-	console.log(title);
+	console.log("title" + title);
 	for(var i=0; i<jsonA.length;i++){
 	if(title==jsonA[i].title){
 		//console.log(title);
