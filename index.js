@@ -55,6 +55,14 @@ return rp(hk)
 				//agent.add(services[i].phoneNumber)
 	                //console.log(services[i].phoneNumber);
 		 	var final = services[i].siteLink;
+		}
+		if(title==services[i].title);
+			console.log(services[i].phoneNumber);
+			var final2=services[i].phoneNumber);
+		}
+		if(title==services[i].title);
+			console.log(services[i].emailAddress);
+			var final3.services[i].emailAddress);
 			//var final1=services[i].phoneNumber;
 			//var final2=services[i].emailAddress;
 				
@@ -62,6 +70,10 @@ return rp(hk)
 	}
 	console.log(final);
         agent.add(final);
+	console.log(final1);
+	agent.add(final1);
+	console.log(final2);
+	agent.add(final2);
 	//console.log(final1);
 	//agent.add(final1);
 	//console.log(final2);
