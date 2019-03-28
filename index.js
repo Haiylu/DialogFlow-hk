@@ -68,7 +68,6 @@ return rp(hk)
 				
    		}
 	}
-		  }
 	console.log(final);
         agent.add(final);
 	console.log(final2);
