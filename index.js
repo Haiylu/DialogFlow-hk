@@ -43,7 +43,6 @@ return rp(hk)
 	agent.add(services[i].emailAddress;
 	*/
 	var title = "Archives";
-	var title1= "Archives";
 	console.log("title " + title);
 	for(var i=0; i<services.length;i++){
 		console.log(services[i].siteLink);
@@ -57,8 +56,8 @@ return rp(hk)
 				//agent.add(services[i].phoneNumber)
 	                //console.log(services[i].phoneNumber);
 		 	var final = services[i].siteLink;
-		}
-		if(title1==services[i].title1){
+		}else 
+		//if(title==services[i].title){
 			console.log(services[i].phoneNumber);
 			var final2=services[i].phoneNumber;
 		}
