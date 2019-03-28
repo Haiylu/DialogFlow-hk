@@ -70,10 +70,10 @@ return rp(hk)
 	}
 	console.log(final);
         agent.add(final);
-	console.log(final1);
-	agent.add(final1);
 	console.log(final2);
 	agent.add(final2);
+	console.log(final3);
+	agent.add(final3);
 	//console.log(final1);
 	//agent.add(final1);
 	//console.log(final2);
