@@ -81,7 +81,7 @@ return rp(hk)
 	//console.log(final2);
 	//agent.add(final2);
         return Promise.resolve(agent);//if resolve return agent
-	})
+	});
 	.catch(function (err) {//checking for error
 			console.log(err);
     	});
