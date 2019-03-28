@@ -32,7 +32,7 @@ return rp(hk)
 			console.log(services);
         		//final = services.siteLink;//finding the json array in the json file
 			//console.log(final);
-			console.log(services[0].id);
+			//console.log(services[0].id);
 			//agent.add(final);
 	console.log(agent);
 	//var title=agent.Services_name;//iterating through JsonArray
@@ -45,8 +45,8 @@ return rp(hk)
 	console.log("title " + title);
 	for(var i=0; i<services.length;i++){
 		console.log(services[i].siteLink);
-		console.log(services[i].phoneNumber);
-		console.log(services[i].emailAdress);
+		//console.log(services[i].phoneNumber);
+		//console.log(services[i].emailAdress);
 		if(title==services[i].title){
 			console.log(services[i].siteLink);
 			//console.log(services[i].phoneNumber);
@@ -60,20 +60,19 @@ return rp(hk)
 			console.log(services[i].phoneNumber);
 			var final2=services[i].phoneNumber;
 		}
-		if(title==services[i].title){
+		/*if(title==services[i].title){
 			console.log(services[i].emailAddress);
 			var final3=services[i].emailAddress;
 			//var final1=services[i].phoneNumber;
-			//var final2=services[i].emailAddress;
+			//var final2=services[i].emailAddress;*/
 				
    		}
-	}
 	console.log(final);
         agent.add(final);
 	console.log(final2);
 	agent.add(final2);
-	console.log(final3);
-	agent.add(final3);
+	//console.log(final3);
+	//agent.add(final3);
 	//console.log(final1);
 	//agent.add(final1);
 	//console.log(final2);
