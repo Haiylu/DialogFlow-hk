@@ -45,6 +45,7 @@ return rp(hk)
 	var title = "Archives";
 	var title1= "Archives";
 	console.log("title " + title);
+	console.log("title1" + title1);
 	for(var i=0; i<services.length;i++){
 		console.log(services[i].siteLink);
 		//console.log(services[i].phoneNumber);
