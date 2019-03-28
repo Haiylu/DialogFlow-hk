@@ -22,6 +22,7 @@ exports.dialogflowFirebaseFulfillment=functions.https.onRequest(app)
 const rp = require('request-promise-native');//adding reqest promise
 function servicesTest(agent){//function name
     var final="";
+    var final2="";
     var hk={ url:'https://api.devhub.virginia.edu/v1/library/services/', //calling url with rp
                  headers:
               { 'User-Agent': 'Request-Promise'},JSON: true};
@@ -42,6 +43,7 @@ return rp(hk)
 	agent.add(services[i].emailAddress;
 	*/
 	var title = "Archives";
+	var title1= "Archives";
 	console.log("title " + title);
 	for(var i=0; i<services.length;i++){
 		console.log(services[i].siteLink);
@@ -56,7 +58,7 @@ return rp(hk)
 	                //console.log(services[i].phoneNumber);
 		 	var final = services[i].siteLink;
 		}
-		if(title==services[i].title){
+		if(title1==services[i].title1){
 			console.log(services[i].phoneNumber);
 			var final2=services[i].phoneNumber;
 		}
