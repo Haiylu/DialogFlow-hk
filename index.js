@@ -57,12 +57,12 @@ return rp(hk)
 		 	var final = services[i].siteLink;
 		}
 		if(title==services[i].title);
-			console.log(services[i].phoneNumber);
-			var final2=services[i].phoneNumber);
+			console.log(services[i].phoneNumber;
+			var final2=services[i].phoneNumber;
 		}
 		if(title==services[i].title);
-			console.log(services[i].emailAddress);
-			var final3.services[i].emailAddress);
+			console.log(services[i].emailAddress;
+			var final3.services[i].emailAddress;
 			//var final1=services[i].phoneNumber;
 			//var final2=services[i].emailAddress;
 				
