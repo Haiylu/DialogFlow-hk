@@ -56,7 +56,7 @@ return rp(hk)
 				//agent.add(services[i].phoneNumber)
 	                //console.log(services[i].phoneNumber);
 		 	var final = services[i].siteLink;
-		}else 
+		}else {
 		//if(title==services[i].title){
 			console.log(services[i].phoneNumber);
 			var final2=services[i].phoneNumber;
@@ -68,6 +68,7 @@ return rp(hk)
 			//var final2=services[i].emailAddress;*/
 				
    		}
+}
 	console.log(final);
         agent.add(final);
 	console.log(final2);
