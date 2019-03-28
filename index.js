@@ -59,7 +59,7 @@ return rp(hk)
 	                //console.log(services[i].phoneNumber);
 		 	var final = services[i].siteLink;
 		}else {
-		if(title==services[i].title.phoneNumber){
+		if(title==services[i].title){
 			console.log(services[i].phoneNumber);
 			var final2=services[i].phoneNumber;
 		}
