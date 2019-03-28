@@ -67,8 +67,7 @@ return rp(hk)
 			console.log(services[i].emailAddress);
 			var final3=services[i].emailAddress;
 			//var final1=services[i].phoneNumber;
-			//var final2=services[i].emailAddress;*/
-				
+			//var final2=services[i].emailAddress;*/		
    		}
 	console.log(final);
         agent.add(final);
