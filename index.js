@@ -38,7 +38,8 @@ return rp(hk)
 				console.log(services[i].siteLink);
 			if(servicesName==services[i].title){
 			console.log(services[i].siteLink);
-				agent.add(services[i].siteLink);	
+				agent.add(services[i].siteLink);
+				agent.add(services[i].phoneNumber);
 			}
 			}
 }
