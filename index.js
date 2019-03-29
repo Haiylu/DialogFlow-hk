@@ -17,10 +17,9 @@ app.intent(LIBRARY_SERVICES_INTENT, (conv) =>{
      conv.ask("http://small.library.virginia.edu/collections/university-of-virginia-archives/")
 })
 exports.dialogflowFirebaseFulfillment=functions.https.onRequest(app)
-
 */
 const rp = require('request-promise-native');//adding reqest promise
-function servicesTest(agent){//function name
+function servicesTest(agent,requestBody,url){//function name
     var final="";
   //  var final2="";
     var hk={ url:'https://api.devhub.virginia.edu/v1/library/services/', //calling url with rp
@@ -33,15 +32,29 @@ return rp(hk)
 			console.log(services);
         		//final = services.siteLink;//finding the json array in the json file
 			//console.log(final);
-			console.log(services[0].id);
+			var servicesName=requestBody.queryResult.parameters.Services_name;
+			console.log(servicesName);
+			for(var i=0; i<services.length;i++){
+				console.log(services[i].siteLink);
+			if(servicesName==services[i].title){
+			console.log(services[i].siteLink);
+				agent.add(services[i].siteLink);	
+			}
+			}
+}
+			//if(requestBody.queryResult.parameters. == "what's"){
+				//console.log("what's");
+			//}
+			//console.log(services[0].id);
 			//agent.add(final);
-	console.log(agent);
+	//console.log(agent);
 	//var title=agent.Services_name;//iterating through JsonArray
 	/*if(agent.Services_name=="Archives"){
 	agent.add(services[i].phoneNumber;
 	agent.add(services[i].siteLink;
 	agent.add(services[i].emailAddress;
-	*/
+	*
+	/*
 	var title = "Archives";
 	//var title1= "Archives";
 	console.log("title " + title);
@@ -70,10 +83,12 @@ return rp(hk)
 			//var final2=services[i].emailAddress;*/		
    		}
 	}
+/*
 	console.log(final);
         agent.add(final);
 	console.log(final2);
 	agent.add(final2);
+	*/
 	//console.log(final3);
 	//agent.add(final3);
 	//console.log(final1);
