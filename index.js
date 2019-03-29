@@ -35,9 +35,9 @@ return rp(hk)
 			var servicesName=requestBody.queryResult.parameters.Services_name;
 			console.log(servicesName);
 			for(var i=0; i<services.length;i++){
-				console.log(services[i].siteLink);
+				//console.log(services[i].siteLink);
 			if(servicesName==services[i].title){
-			console.log(services[i].siteLink);
+			//console.log(services[i].siteLink);
 				agent.add(services[i].siteLink);
 				agent.add(services[i].phoneNumber);
 				agent.add(services[i].emailAddress);
