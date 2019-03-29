@@ -43,7 +43,6 @@ return rp(hk)
 				agent.add(services[i].emailAddress);
 			}
 			}
-}
 		      }			//if(requestBody.queryResult.parameters. == "what's"){
 				//console.log("what's");
 			//}
