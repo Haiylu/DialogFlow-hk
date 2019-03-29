@@ -52,7 +52,7 @@ return rp(hk)
 		//console.log(services[i].emailAdress);
 		if(title==services[i].title){
 			console.log(services[i].siteLink);
-			//console.log(services[i].phoneNumber);
+			console.log(services[i].phoneNumber);
 			//console.log(services[i].emailAddress);
 			//if(agent.Services_info=="phone number"){
 				//agent.add(services[i].phoneNumber)
