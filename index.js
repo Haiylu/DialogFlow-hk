@@ -44,7 +44,6 @@ return rp(hk)
 			}
 			}
 }
-		      }
 			//if(requestBody.queryResult.parameters. == "what's"){
 				//console.log("what's");
 			//}
