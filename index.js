@@ -40,6 +40,7 @@ return rp(hk)
 			console.log(services[i].siteLink);
 				agent.add(services[i].siteLink);
 				agent.add(services[i].phoneNumber);
+				agent.add(services[i].emailAddress);
 			}
 			}
 }
