@@ -36,12 +36,11 @@ return rp(hk)
 				//console.log(services[i].siteLink);
 			if(servicesName==services[i].title){
 			//console.log(services[i].siteLink);
-				agent.add(services[i].title);
-			}if(servicesInfo=="site Link"){
-			//console.log(services[i].siteLink);
+				if(servicesInfo=="site Link"){
+					//console.log(services[i].siteLink);
 					agent.add(services[i].siteLink);
-			}
-				if(servicesInfo=="phone number"){
+				}
+				else if(servicesInfo=="phone number"){
 					agent.add(services[i].phoneNumber);
 				}
 				else if(servicesInfo=="email address"){
@@ -50,6 +49,7 @@ return rp(hk)
 				else{ 
 					agent.add("not sure what you're looking for");
 				}
+			}
 			}
 			//console.log(services[0].id);
 			//agent.add(final);
