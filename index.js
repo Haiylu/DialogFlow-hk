@@ -30,20 +30,23 @@ return rp(hk)
         		//final = services.siteLink;//finding the json array in the json file
 			//console.log(final);
 			var servicesName=requestBody.queryResult.parameters.Services_name;
-			//var servicesInfo=requestBody.queryResult.parameters.Services_info;
+			var servicesInfo=requestBody.queryResult.parameters.Services_info;
 			console.log(servicesName);
 			for(var i=0; i<services.length;i++){
 				//console.log(services[i].siteLink);
 			if(servicesName==services[i].title){
 			//console.log(services[i].siteLink);
 					agent.add(services[i].siteLink);
-			}/*
-				if(servicesInfo==services[i].phoneNumber){
+			}
+				if(servicesInfo=="phone number"){
 					agent.add(services[i].phoneNumber);
 				}
-				if(servicesInfo==services[i].emailAddress){
+				if(servicesInfo=="email Address"){
 					agent.add(services[i].emailAddress);
-				}*/
+				}
+				else{ 
+					agent.add("not sure what you're looking for");
+				}
 			}
 			//console.log(services[0].id);
 			//agent.add(final);
