@@ -30,6 +30,7 @@ return rp(hk)
         		//final = services.siteLink;//finding the json array in the json file
 			//console.log(final);
 			var servicesName=requestBody.queryResult.parameters.Services_name;
+			var servicesInfo=requestBody.queryResult.parameters.Services_info;
 			console.log(servicesName);
 			for(var i=0; i<services.length;i++){
 				//console.log(services[i].siteLink);
@@ -43,7 +44,6 @@ return rp(hk)
 				if(services_info==services[i].emailAddress){
 					agent.add(services[i].emailAddress);
 				}	
-			}
 			}
 			//console.log(services[0].id);
 			//agent.add(final);
