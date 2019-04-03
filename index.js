@@ -36,12 +36,15 @@ return rp(hk)
 				//console.log(services[i].siteLink);
 			if(servicesName==services[i].title){
 			//console.log(services[i].siteLink);
+				agent.add(services[i].title);
+			}if(servicesInfo=="site Link"){
+			//console.log(services[i].siteLink);
 					agent.add(services[i].siteLink);
 			}
 				if(servicesInfo=="phone number"){
 					agent.add(services[i].phoneNumber);
 				}
-				if(servicesInfo=="email Address"){
+				else if(servicesInfo=="email address"){
 					agent.add(services[i].emailAddress);
 				}
 				else{ 
