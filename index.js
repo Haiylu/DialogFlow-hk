@@ -37,13 +37,13 @@ return rp(hk)
 			if(servicesName==services[i].title){
 			//console.log(services[i].siteLink);
 					agent.add(services[i].siteLink);
-			}
+			}/*
 				if(services_info==services[i].phoneNumber){
 					agent.add(services[i].phoneNumber);
 				}
 				if(services_info==services[i].emailAddress){
 					agent.add(services[i].emailAddress);
-				}	
+				}*/	
 			}
 			//console.log(services[0].id);
 			//agent.add(final);
