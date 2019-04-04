@@ -47,7 +47,7 @@ return rp(hk)
 					agent.add(services[i].emailAddress);
 				}
 				else{ 
-					agent.add("not sure what you're looking for");
+					agent.add("request doesn't match");
 				}
 			}
 			}
