@@ -40,18 +40,18 @@ return rp(hk)
 					//console.log(services[i].siteLink);
 					agent.add(services[i].siteLink);
 				}
-				else if(servicesInfo=="phone number"){
-					agent.add(services[i].phoneNumber);
+				else if(servicesInfo=="phone number"){//
+					agent.add(services[i].phoneNumber);//the agent adds phoneNumber to train it
 				}
 				else if(servicesInfo=="email address"){
-					agent.add(services[i].emailAddress);
+					agent.add(services[i].emailAddress);//the agent adds emailAddress to train it 
 				}
 				else{ 
 					agent.add("request doesn't match");
 				}
 			}
 			}
-			//console.log(services[0].id);
+	//console.log(services[0].id);
 			//agent.add(final);
 	//console.log(agent);
 	//var title=agent.Services_name;//iterating through JsonArray
