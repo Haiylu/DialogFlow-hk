@@ -17,22 +17,22 @@ app.intent(LIBRARY_SERVICES_INTENT, (conv) =>{
 exports.dialogflowFirebaseFulfillment=functions.https.onRequest(app)
 */
 const rp = require('request-promise-native');//adding reqest promise
-function servicesTest(agent,requestBody,url){//function name
+function servicesTest(agent,requestBody,url){//the function servicesTest calles gent, requestBody and url of the services
     var final="";
   //  var final2="";
     var hk={ url:'https://api.devhub.virginia.edu/v1/library/services/', //calling url with rp
                  headers:
               { 'User-Agent': 'Request-Promise'},JSON: true};
 return rp(hk)
-    		.then(function (services) {
-			services = JSON.parse(services);
+    		.then(function (services) {//services function
+			services = JSON.parse(services);//it parse the json body
 			console.log(services);
         		//final = services.siteLink;//finding the json array in the json file
 			//console.log(final);
 			var servicesName=requestBody.queryResult.parameters.Services_name;
 			var servicesInfo=requestBody.queryResult.parameters.Services_info;
-			console.log(servicesName);
-			for(var i=0; i<services.length;i++){
+			console.log(servicesName);//it print out what servicesName doeos in the log
+			for(var i=0; i<services.length;i++){//the for loop goes through the loop 
 				//console.log(services[i].siteLink);
 			if(servicesName==services[i].title){
 			//console.log(services[i].siteLink);
