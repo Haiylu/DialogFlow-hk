@@ -32,55 +32,7 @@ return rp(hk)
 					agent.add("request doesn't match");
 				}
 			}
-			}
-	//console.log(services[0].id);
-			//agent.add(final);
-	//console.log(agent);
-	//var title=agent.Services_name;//iterating through JsonArray
-	/*if(agent.Services_name=="Archives"){
-	agent.add(services[i].phoneNumber;
-	agent.add(services[i].siteLink;
-	agent.add(services[i].emailAddress;
-	*
-	/*
-	var title = "Archives";
-	//var title1= "Archives";
-	console.log("title " + title);
-	//console.log("title1" + title1);
-	for(var i=0; i<services.length;i++){
-		console.log(services[i].siteLink);
-		//console.log(services[i].phoneNumber);
-		//console.log(services[i].emailAdress);
-		if(title==services[i].title){
-			console.log(services[i].siteLink);
-			console.log(services[i].phoneNumber);
-			//console.log(services[i].emailAddress);
-			//if(agent.Services_info=="phone number"){
-				//agent.add(services[i].phoneNumber)
-	                //console.log(services[i].phoneNumber);
-		 	var final = services[i].siteLink;
-		}else {
-		if(title==services[i].title){
-			console.log(services[i].phoneNumber);
-			var final2=services[i].phoneNumber;
-		}
-		/*if(title==services[i].title){
-			console.log(services[i].emailAddress);
-			var final3=services[i].emailAddress;
-			//var final1=services[i].phoneNumber;
-			//var final2=services[i].emailAddress;*/		
-/*
-	console.log(final);
-        agent.add(final);
-	console.log(final2);
-	agent.add(final2);
-	*/
-	//console.log(final3);
-	//agent.add(final3);
-	//console.log(final1);
-	//agent.add(final1);
-	//console.log(final2);
-	//agent.add(final2);
+			}		
         return Promise.resolve(agent);//if resolve return agent
 	})
 	.catch(function (err) {//checking for error
